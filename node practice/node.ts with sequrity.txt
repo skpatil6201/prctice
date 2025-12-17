@@ -1,0 +1,55 @@
+// src/index.ts
+import express, { Request, Response, NextFunction } from "express";
+import helmet from "helmet";
+import rateLimit from "express-rate-limit";
+import cors from "cors";
+import hpp from "hpp";
+import xss from "xss-clean";
+import mongoSanitize from "express-mongo-sanitize";
+import csurf from "csurf";
+import dotenv from "dotenv";
+
+// Load environment variables
+dotenv.config();
+
+const app = express();
+
+// ✅ Basic middleware
+app.use(express.json()); // parse JSON bodies
+app.use(express.urlencoded({ extended: true }));
+
+// ✅ Security middleware
+app.use(helmet()); // set security headers
+app.use(hpp()); // prevent HTTP param pollution
+app.use(xss()); // prevent XSS
+app.use(mongoSanitize()); // prevent NoSQL injection
+app.use(cors({ origin: process.env.CLIENT_URL || "*" })); // configure CORS
+
+// ✅ Rate limiting (100 requests per 15 minutes per IP)
+const limiter = rateLimit({
+  windowMs: 15 * 60 * 1000,
+  max: 100,
+  message: "Too many requests from this IP, please try again later.",
+});
+app.use(limiter);
+
+// ✅ CSRF protection (optional if you use JWT)
+// NOTE: Only enable for stateful apps with cookies
+// app.use(csurf());
+
+// ✅ Example route
+app.get("/", (req: Request, res: Response) => {
+  res.json({ message: "Secure Express API is running 🚀" });
+});
+
+// ✅ Error handler (important for security)
+app.use((err: Error, req: Request, res: Response, next: NextFunction) => {
+  console.error(err.stack);
+  res.status(500).json({ error: "Something went wrong!" });
+});
+
+// ✅ Start server
+const PORT = process.env.PORT || 5000;
+app.listen(PORT, () => {
+  console.log(`⚡ Server running on http://localhost:${PORT}`);
+});

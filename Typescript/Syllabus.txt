@@ -1,0 +1,273 @@
+🔹 TypeScript Basics
+
+What is TypeScript & why use it
+
+TypeScript vs JavaScript
+
+Installing & configuring TypeScript
+
+tsconfig.json (important options)
+
+🔹 Basic Types
+
+number, string, boolean
+
+null, undefined
+
+any vs unknown
+
+void, never
+
+object
+
+Type inference
+
+🔹 Arrays & Tuples
+
+Typed arrays (number[], Array<string>)
+
+Tuples
+
+Readonly arrays
+
+🔹 Functions
+
+Function type annotations
+
+Optional parameters
+
+Default parameters
+
+Rest parameters
+
+Return types
+
+Function overloads
+
+🔹 Objects & Type Aliases
+
+Object typing
+
+Type aliases (type)
+
+Nested object types
+
+Readonly properties
+
+🔹 Interfaces
+
+Interfaces vs Type aliases
+
+Optional properties
+
+Readonly properties
+
+Extending interfaces
+
+Implementing interfaces in classes
+
+🔹 Union & Intersection Types
+
+Union (|)
+
+Intersection (&)
+
+Literal types
+
+Type narrowing
+
+🔹 Enums
+
+Numeric enums
+
+String enums
+
+Const enums
+
+🔹 Type Assertions
+
+as keyword
+
+Angle-bracket syntax
+
+When to avoid assertions
+
+🔹 Generics (VERY IMPORTANT)
+
+Generic functions
+
+Generic interfaces
+
+Generic classes
+
+Constraints (extends)
+
+Default generics
+
+🔹 Advanced Types
+
+Partial
+
+Required
+
+Readonly
+
+Pick
+
+Omit
+
+Record
+
+Exclude
+
+Extract
+
+NonNullable
+
+🔹 Utility Types (Interview Favorite)
+
+Built-in utility types
+
+Custom utility types
+
+🔹 Type Guards
+
+typeof
+
+instanceof
+
+in operator
+
+Custom type guards
+
+🔹 Classes in TypeScript
+
+Access modifiers (public, private, protected)
+
+readonly
+
+Abstract classes
+
+Parameter properties
+
+Inheritance
+
+🔹 Modules & Namespaces
+
+ES modules (import/export)
+
+Default vs named exports
+
+Module resolution
+
+Namespaces (legacy)
+
+🔹 Type Narrowing
+
+Control flow analysis
+
+Discriminated unions
+
+Exhaustiveness checking
+
+🔹 Advanced Generics
+
+Conditional types
+
+Mapped types
+
+Indexed access types
+
+Template literal types
+
+keyof, typeof
+
+🔹 TypeScript with React
+
+Typing props & state
+
+React.FC
+
+Event typing
+
+useState, useRef, useReducer
+
+Children typing
+
+Custom hooks typing
+
+🔹 TypeScript with Node.js
+
+Typing Express requests & responses
+
+Middleware typing
+
+Environment variables typing
+
+Custom error types
+
+🔹 Error Handling
+
+Typed errors
+
+never usage
+
+Try/catch typing
+
+🔹 Configuration & Tooling
+
+Strict mode
+
+Path aliases
+
+Linting with TypeScript
+
+Babel + TypeScript
+
+🔹 Performance & Best Practices
+
+Avoid any
+
+Use unknown
+
+Type inference best practices
+
+Code maintainability
+
+🔹 Interview-Oriented Topics
+
+any vs unknown
+
+interface vs type
+
+never vs void
+
+Union vs Intersection
+
+Type inference
+
+Utility types use cases
+
+🔹 Real-World Concepts
+
+DTOs
+
+API response typing
+
+Form validation typing
+
+Database model typing
+
+📌 Suggested Learning Order
+
+Basics + Types
+
+Functions + Objects
+
+Interfaces + Unions
+
+Generics + Utility Types
+
+Advanced Types
+
+React / Node integration

@@ -1,0 +1,225 @@
+🔰 BASIC SQL TOPICS
+1. Introduction to SQL
+
+What is SQL?
+
+RDBMS concepts
+
+Tables, Rows, Columns
+
+Primary Key
+
+Foreign Key
+
+SQL vs NoSQL
+
+2. Database & Table Operations
+
+CREATE DATABASE
+
+DROP DATABASE
+
+USE database
+
+CREATE TABLE
+
+DROP TABLE
+
+TRUNCATE TABLE
+
+3. Data Types
+
+INT
+
+VARCHAR
+
+TEXT
+
+DATE
+
+TIMESTAMP
+
+BOOLEAN
+
+DECIMAL
+
+4. CRUD Operations
+INSERT
+INSERT INTO users (name, email) VALUES ('Tejas', 'test@mail.com');
+
+SELECT
+SELECT * FROM users;
+
+UPDATE
+UPDATE users SET name='Admin' WHERE id=1;
+
+DELETE
+DELETE FROM users WHERE id=1;
+
+🟡 INTERMEDIATE SQL TOPICS
+5. Constraints
+
+PRIMARY KEY
+
+FOREIGN KEY
+
+UNIQUE
+
+NOT NULL
+
+DEFAULT
+
+CHECK
+
+6. Filtering & Sorting
+
+WHERE
+
+AND, OR
+
+LIKE
+
+IN
+
+BETWEEN
+
+ORDER BY
+
+LIMIT, OFFSET
+
+7. Aggregate Functions
+
+COUNT()
+
+SUM()
+
+AVG()
+
+MIN()
+
+MAX()
+
+8. GROUP BY & HAVING
+SELECT department, COUNT(*) 
+FROM employees
+GROUP BY department
+HAVING COUNT(*) > 5;
+
+9. Joins (VERY IMPORTANT 🔥)
+
+INNER JOIN
+
+LEFT JOIN
+
+RIGHT JOIN
+
+FULL JOIN
+
+Self Join
+
+SELECT u.name, o.total
+FROM users u
+INNER JOIN orders o ON u.id = o.user_id;
+
+🔵 ADVANCED SQL TOPICS
+10. Subqueries
+
+Single-row subquery
+
+Multi-row subquery
+
+Correlated subquery
+
+SELECT name FROM users
+WHERE id IN (SELECT user_id FROM orders);
+
+11. Indexes
+
+What is indexing?
+
+CREATE INDEX
+
+Composite indexes
+
+Unique index
+
+Pros & cons
+
+12. Views
+CREATE VIEW active_users AS
+SELECT * FROM users WHERE status='active';
+
+13. Stored Procedures
+CREATE PROCEDURE getUsers()
+BEGIN
+  SELECT * FROM users;
+END;
+
+14. Transactions
+
+BEGIN
+
+COMMIT
+
+ROLLBACK
+
+ACID properties
+
+BEGIN;
+UPDATE accounts SET balance = balance - 100 WHERE id=1;
+UPDATE accounts SET balance = balance + 100 WHERE id=2;
+COMMIT;
+
+🔴 EXPERT / PRODUCTION SQL TOPICS
+15. Normalization
+
+1NF
+
+2NF
+
+3NF
+
+BCNF
+
+16. Performance Optimization
+
+Index strategy
+
+Query optimization
+
+EXPLAIN
+
+Avoid SELECT *
+
+17. Locks & Concurrency
+
+Row-level lock
+
+Table lock
+
+Deadlocks
+
+18. Triggers
+CREATE TRIGGER before_insert_user
+BEFORE INSERT ON users
+FOR EACH ROW
+SET NEW.created_at = NOW();
+
+19. Partitioning
+
+Range partition
+
+Hash partition
+
+⚙️ SQL WITH NODE.JS / EXPRESS
+20. Using SQL in Backend
+
+MySQL with Node.js
+
+PostgreSQL with Node.js
+
+Connection pools
+
+Prepared statements
+
+SQL injection prevention
