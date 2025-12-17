@@ -1,0 +1,4 @@
+crentrazed :=== its is architecture that server is on center of the client.
+ // alll athority is on center 
+
+ decentralized : ===  no single point of control  or athority

@@ -1,0 +1,136 @@
+# JavaScript Syllabus
+
+## 🔰 CORE JAVASCRIPT CONCEPTS
+
+### 1. Execution & Memory
+- Execution Context
+- Call Stack
+- Memory Heap
+- Hoisting
+- Scope (Global, Function, Block)
+
+### 2. Closures & Scope
+- Closures (real-world use cases)
+- Lexical scope
+- Data privacy using closures
+
+### 3. this Keyword
+- `this` in:
+  - Global scope
+  - Function
+  - Arrow function
+  - Object method
+- `call()`, `apply()`, `bind()`
+
+### 4. Prototypes & Inheritance
+- Prototype chain
+- `__proto__` vs `prototype`
+- Inheritance using prototypes
+- ES6 Classes vs Prototype-based inheritance
+
+## 🟡 ASYNCHRONOUS JAVASCRIPT
+
+### 5. Asynchronous JavaScript
+- Callbacks
+- Promises
+- `async` / `await`
+- Promise chaining
+- Error handling (`try/catch`)
+- `Promise.all`, `Promise.race`, `Promise.any`, `Promise.allSettled`
+
+### 6. Event Loop (VERY IMPORTANT)
+- Event loop
+- Microtask queue vs Callback queue
+- `setTimeout`, `setImmediate`, `process.nextTick`
+- How async code executes
+
+## 🔵 ADVANCED JAVASCRIPT
+
+### 7. JavaScript Engine
+- V8 engine
+- Parsing & compilation
+- JIT (Just-In-Time compilation)
+- Garbage collection
+
+### 8. Functional Programming
+- Pure functions
+- Immutability
+- Higher-order functions
+- `map`, `filter`, `reduce`
+- Function composition
+
+### 9. Currying & Partial Application
+- Function currying
+- Partial application
+- Real-world examples
+
+### 10. Debouncing & Throttling
+- Difference between debounce & throttle
+- Use cases (search input, scroll, resize)
+
+### 11. Memory Management
+- Memory leaks
+- Garbage collection
+- WeakMap & WeakSet
+
+### 12. ES6+ Advanced Features
+- Destructuring (deep destructuring)
+- Spread & Rest operators
+- Optional chaining (`?.`)
+- Nullish coalescing (`??`)
+- Modules (`import` / `export`)
+- Dynamic imports
+
+### 13. Design Patterns in JS
+- Module pattern
+- Singleton pattern
+- Factory pattern
+- Observer pattern
+- MVC basics
+
+### 14. Error Handling
+- Custom errors
+- `throw`
+- Global error handling
+- Async error handling best practices
+
+## 🌐 WEB APIS & BROWSER
+
+### 15. Web APIs & Browser Internals
+- DOM & BOM
+- Event delegation
+- Shadow DOM
+- Web Storage (`localStorage`, `sessionStorage`)
+- Cookies vs Storage
+
+### 16. Performance Optimization
+- Code splitting
+- Lazy loading
+- Memoization
+- Avoiding reflows & repaints
+
+### 17. Security Concepts
+- XSS
+- CSRF
+- CORS
+- Same-origin policy
+
+## 🔴 ADVANCED TOPICS
+
+### 18. Advanced Objects & Arrays
+- Object descriptors
+- `Object.freeze`, `seal`
+- Deep vs shallow copy
+- Custom `map`, `filter`, `reduce` implementation
+
+### 19. Testing & Debugging
+- Unit testing basics
+- Jest fundamentals
+- Debugging in DevTools
+
+### 20. Interview-Focused Topics
+- Output-based questions
+- Polyfills
+- `==` vs `===`
+- Event bubbling vs capturing
+- Shallow vs deep copy

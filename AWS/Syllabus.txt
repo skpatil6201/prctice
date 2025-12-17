@@ -1,0 +1,246 @@
+# AWS (Amazon Web Services) Syllabus
+
+## 🔰 AWS FUNDAMENTALS
+
+### 1. Introduction to AWS
+- What is AWS?
+- Cloud computing concepts
+- AWS Global Infrastructure
+- Regions and Availability Zones
+- AWS Management Console
+- AWS CLI basics
+
+### 2. Identity and Access Management (IAM)
+- Users, Groups, and Roles
+- Policies and Permissions
+- Multi-Factor Authentication (MFA)
+- Access Keys and Security Credentials
+- Best practices for IAM
+
+### 3. AWS Compute Services
+
+#### EC2 (Elastic Compute Cloud)
+- Instance types and sizing
+- AMIs (Amazon Machine Images)
+- Security Groups
+- Key Pairs
+- Elastic IP addresses
+- Instance lifecycle
+
+#### Lambda
+- Serverless computing
+- Function creation and deployment
+- Triggers and event sources
+- Environment variables
+- Layers and dependencies
+
+## 🟡 INTERMEDIATE AWS SERVICES
+
+### 4. Storage Services
+
+#### S3 (Simple Storage Service)
+- Buckets and objects
+- Storage classes
+- Versioning
+- Lifecycle policies
+- Cross-Region Replication
+- Static website hosting
+
+#### EBS (Elastic Block Store)
+- Volume types
+- Snapshots
+- Encryption
+
+### 5. Database Services
+
+#### RDS (Relational Database Service)
+- Supported database engines
+- Multi-AZ deployments
+- Read replicas
+- Automated backups
+- Parameter groups
+
+#### DynamoDB
+- NoSQL database concepts
+- Tables, items, and attributes
+- Primary keys and indexes
+- Provisioned vs On-demand capacity
+
+### 6. Networking
+
+#### VPC (Virtual Private Cloud)
+- Subnets (public/private)
+- Internet Gateway
+- NAT Gateway/Instance
+- Route Tables
+- Security Groups vs NACLs
+
+#### CloudFront
+- Content Delivery Network (CDN)
+- Distributions
+- Origins and behaviors
+- Caching strategies
+
+## 🔵 ADVANCED AWS SERVICES
+
+### 7. Application Services
+
+#### API Gateway
+- REST and WebSocket APIs
+- Stages and deployments
+- Authentication and authorization
+- Throttling and caching
+
+#### SQS (Simple Queue Service)
+- Standard vs FIFO queues
+- Message visibility timeout
+- Dead letter queues
+
+#### SNS (Simple Notification Service)
+- Topics and subscriptions
+- Message filtering
+- Mobile push notifications
+
+### 8. Monitoring and Logging
+
+#### CloudWatch
+- Metrics and alarms
+- Logs and log groups
+- Dashboards
+- Events and rules
+
+#### CloudTrail
+- API logging
+- Event history
+- Compliance and auditing
+
+### 9. Security Services
+
+#### AWS WAF
+- Web application firewall
+- Rules and conditions
+- Rate limiting
+
+#### AWS Shield
+- DDoS protection
+- Standard vs Advanced
+
+#### AWS Certificate Manager
+- SSL/TLS certificates
+- Certificate provisioning and renewal
+
+## 🔴 EXPERT / PRODUCTION AWS
+
+### 10. Infrastructure as Code
+
+#### CloudFormation
+- Templates and stacks
+- Parameters and outputs
+- Nested stacks
+- Stack policies
+
+#### CDK (Cloud Development Kit)
+- Infrastructure as code using programming languages
+- Constructs and apps
+
+### 11. Container Services
+
+#### ECS (Elastic Container Service)
+- Task definitions
+- Services and clusters
+- Fargate vs EC2 launch types
+
+#### EKS (Elastic Kubernetes Service)
+- Kubernetes on AWS
+- Node groups
+- Helm charts
+
+### 12. DevOps and CI/CD
+
+#### CodeCommit
+- Git repositories
+- Branch policies
+
+#### CodeBuild
+- Build projects
+- Build specifications
+
+#### CodeDeploy
+- Deployment configurations
+- Blue/green deployments
+
+#### CodePipeline
+- CI/CD pipelines
+- Source, build, and deploy stages
+
+### 13. Advanced Networking
+
+#### Route 53
+- DNS management
+- Health checks
+- Traffic routing policies
+
+#### Direct Connect
+- Dedicated network connections
+- Virtual interfaces
+
+### 14. Big Data and Analytics
+
+#### Kinesis
+- Data streaming
+- Kinesis Data Streams
+- Kinesis Data Firehose
+- Kinesis Analytics
+
+#### EMR (Elastic MapReduce)
+- Big data processing
+- Hadoop and Spark clusters
+
+### 15. Machine Learning
+
+#### SageMaker
+- Machine learning platform
+- Model training and deployment
+- Jupyter notebooks
+
+#### Rekognition
+- Image and video analysis
+- Facial recognition
+
+## 🏗️ AWS ARCHITECTURE PATTERNS
+
+### 16. Well-Architected Framework
+- Operational Excellence
+- Security
+- Reliability
+- Performance Efficiency
+- Cost Optimization
+
+### 17. Common Architecture Patterns
+- Three-tier architecture
+- Microservices architecture
+- Serverless architecture
+- Event-driven architecture
+
+## 💰 COST OPTIMIZATION
+
+### 18. Cost Management
+- AWS Pricing models
+- Reserved Instances
+- Spot Instances
+- Cost Explorer
+- Budgets and billing alerts
+
+## 🎯 AWS CERTIFICATIONS PREP
+
+### 19. Certification Paths
+- AWS Cloud Practitioner
+- AWS Solutions Architect Associate
+- AWS Developer Associate
+- AWS SysOps Administrator Associate
+
+### 20. Best Practices
+- Security best practices
+- Performance optimization
+- Disaster recovery planning
+- Multi-region deployments

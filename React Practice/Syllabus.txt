@@ -1,0 +1,116 @@
+# React.js Syllabus
+
+## 🔰 React Fundamentals
+- What is React & why use it
+- SPA vs MPA
+- Virtual DOM
+- JSX
+- Folder structure
+- React installation (Vite / CRA)
+
+## 🧩 Components
+- Functional components
+- Class components (basic)
+- Component reusability
+- Props
+- Props drilling
+
+## 🔄 State & Events
+- `useState`
+- Event handling
+- Controlled vs uncontrolled components
+- Lifting state up
+
+## 🎣 React Hooks
+- `useEffect`
+- `useContext`
+- `useRef`
+- `useReducer`
+- `useMemo`
+- `useCallback`
+- Custom hooks
+- Rules of hooks
+
+## 🌐 Routing
+- React Router DOM
+- Dynamic routing
+- Nested routes
+- Route protection (Private Routes)
+- 404 page handling
+
+## 📦 Forms & Validation
+- Controlled forms
+- Form validation
+- Formik / React Hook Form (basic)
+- Handling file uploads
+
+## 🌍 API Integration
+- Fetch API
+- Axios
+- Handling loading & errors
+- Pagination
+- Infinite scrolling
+
+## 🎨 Styling in React
+- CSS / SCSS
+- CSS Modules
+- Inline styles
+- Tailwind CSS
+- Styled Components
+
+## 🧠 State Management
+- Context API
+- Redux fundamentals
+- Redux Toolkit
+- Middleware (Thunk)
+- Zustand (intro)
+
+## ⚡ Performance Optimization
+- React memo
+- Lazy loading
+- Code splitting
+- Suspense
+- Virtualization
+
+## 🔐 Authentication & Authorization
+- JWT authentication
+- Protected routes
+- Role-based access
+- OAuth (Google login)
+
+## 🧪 Testing
+- Jest
+- React Testing Library
+- Unit & integration tests
+
+## 🛠️ Advanced React
+- Error Boundaries
+- Portals
+- Refs & forwardRef
+- Higher-Order Components (HOC)
+- Render props
+
+## 🧱 Design Patterns
+- Container & Presentational components
+- Atomic design
+- Compound components
+
+## 🌐 React with Backend (MERN)
+- Connecting React with Node/Express
+- Environment variables
+- CORS handling
+- Deployment basics
+
+## 🚀 Build & Deployment
+- Production build
+- Environment configs
+- Deploy on Vercel / Netlify
+- CI/CD basics
+
+## 📚 Interview-Focused Topics
+- Lifecycle methods
+- Controlled vs uncontrolled
+- State vs props
+- useEffect dependency array
+- Virtual DOM vs Real DOM
+- Keys in React lists
