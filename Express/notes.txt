@@ -1,0 +1,72 @@
+express is a minimal fast and flexible node.js frameworl used to build the web applivation and REST API.
+
+express provide 
+	
+	Easy Routeing 
+	middleware Support 
+	Clean Synteax 
+	Fast Development
+	 
+middleware is  function that run on the lifecycle of req and res
+
+5 type are follow.
+
+	app leval middleware 
+	thirdParty Middleware 
+	Application Leval Middleware 
+	Route Leval Middleware 
+	Error Handling Middleware
+
+next() is used to pass control to the next middleware
+
+routing is defife how an app respons to client request .
+
+express.Router() is used to create modular and reusable route handlers
+
+app.use()  ...is used for middleware  ,match all HTTP request , can match partial paths.
+
+
+app.get()  is used for only get request ,its match only GET , it can match exact path.
+
+express can understand only req.params ,req.body ,req.query.
+
+express can read request body data by req.params ,req.body , req. query.
+
+req.body read by contain data sent from client in POST and PUT , its parse all data in json using app.use(express.json()).
+
+express can handle errors using express error handling middleware .
+
+express can handle eeror from async function using try-catch..
+
+in exprees helmet is used to hide header daital  that show in network in brawser and header in postman.
+helmet can sequare our application on click-jacking attack ..like you click on any buton and its go on another web
+
+eg..    import helmet from "helmet"
+	app.use(helmet());
+
+
+in browser cant be all to share resourse between another origin or web like gaana.com and music.com ..is it not allow , https:/gaana.com and http:/gaana its also not allow.
+
+express CORS - cross origin resourse sharing 
+
+eq..    app.use(cors(
+	 {
+	  origin:'https://gaana.com'
+	  credentials: true,
+
+	 }
+	))
+
+
+	fetch('https://gana.com/getData',{
+	 method:'GET'
+	 creadentials:'include',
+	}
+
+eg..   app.use('*',cors())
+
+
+express can help to provide input validation using express-validator
+
+
+
