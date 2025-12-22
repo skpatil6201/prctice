@@ -1,0 +1,216 @@
+✅ 1. Introduction to DSA
+
+What are Data Structures?
+
+What are Algorithms?
+
+Time and Space Complexity
+
+Big O, Big Θ, Big Ω
+
+Best / Average / Worst cases
+
+Asymptotic Analysis
+
+Recurrences & Master Theorem
+
+✅ 2. Arrays
+
+Basic operations: traversal, insertion, deletion
+
+Searching & Sorting basics
+
+2D arrays & applications
+
+Prefix sums, sliding window
+
+✅ 3. Strings
+
+String operations
+
+Pattern matching (Naïve, KMP)
+
+Anagrams, palindromes
+
+String hashing
+
+Substrings & subsequences
+
+✅ 4. Linked Lists
+
+Singly Linked List
+
+Doubly Linked List
+
+Circular Linked List
+
+Operations: insert, delete, search, reverse
+
+Fast & slow pointers
+
+✅ 5. Stacks & Queues
+
+Stack: push, pop, peek
+
+Expressions: infix → postfix → prefix
+
+Balanced parentheses
+
+Queue: linear, circular
+
+Deque & priority queue
+
+✅ 6. Trees
+
+Terminology: node, leaf, height
+
+Binary Trees
+
+Binary Search Trees (BST)
+
+Tree traversals: in-order, pre-order, post-order
+
+Heaps (Min/Max Heap)
+
+Balanced Trees: AVL, Red-Black Tree (concepts)
+
+✅ 7. Recursion & Backtracking
+
+Recursive thinking & recursion tree
+
+Permutations & combinations
+
+Subsets / Power set
+
+N-Queens
+
+Sudoku Solver
+
+✅ 8. Hashing
+
+Hash tables / Hash maps
+
+Collision handling: chaining, open addressing
+
+Applications: frequency count, two-sum
+
+✅ 9. Sorting & Searching Algorithms
+Sorting
+
+Bubble Sort
+
+Selection Sort
+
+Insertion Sort
+
+Merge Sort
+
+Quick Sort
+
+Heap Sort
+
+Counting / Radix / Bucket Sort
+
+Searching
+
+Linear Search
+
+Binary Search
+
+On arrays
+
+On answer approach
+
+✅ 10. Graphs
+
+Terminology: vertices, edges, weights
+
+Representations: adjacency list/matrix
+
+Traversals:
+
+BFS
+
+DFS
+
+Shortest Paths:
+
+Dijkstra
+
+Bellman-Ford
+
+Floyd-Warshall
+
+MST (Minimum Spanning Tree):
+
+Kruskal
+
+Prim
+
+Topological Sort
+
+Connected components
+
+✅ 11. Dynamic Programming (DP)
+
+Memoization vs Tabulation
+
+Subproblem identification
+
+Famous DP problems:
+
+Fibonacci
+
+Knapsack
+
+Longest Common Subsequence (LCS)
+
+Longest Increasing Subsequence (LIS)
+
+Coin Change
+
+DP on grids
+
+✅ 12. Greedy Algorithms
+
+Greedy decision making
+
+Interval scheduling
+
+Huffman Coding
+
+Activity selection
+
+Fractional knapsack
+
+✅ 13. Advanced Data Structures
+
+Tries (Prefix Trees)
+
+Segment Trees
+
+Binary Indexed Trees (Fenwick Tree)
+
+Disjoint Set Union (DSU / Union-Find)
+
+Balanced BST (AVL / Red-Black / Splay)
+
+✅ 14. Bit Manipulation
+
+Bit operations: AND, OR, XOR, shifts
+
+Bit masks
+
+Useful tricks: check power of 2, count bits
+
+✅ 15. Miscellaneous Topics
+
+Sliding Window Technique
+
+Two Pointers
+
+Divide & Conquer
+
+Randomized Algorithms
+
+Memoization patterns

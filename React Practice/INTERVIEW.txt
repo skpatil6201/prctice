@@ -1,0 +1,6 @@
+can you tell me about challenges project you worked on and how to handle it.  ???
+
+And ====  in my previes roll . one of the most challenging project i worked on was intregation payment gatewayinto our node.js backend .
+we encountered serveral complex essue , such as match hash keys and getting response from server.that 
+time i collabrirate closelly with my team, devide stask strategically and testing to reliablity. ultimataly intragation successfull 
+

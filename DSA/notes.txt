@@ -1,0 +1,29 @@
+what is DS                                     
+    1)+++++ Data structurer is way to organise ,storing and maniging data in computer.
+what is Algorithem             
+    2)+++++ An Algorithm is a step by step precedure or set of intrastution to solve a specific problem.
+What is Time and Space Coplexity               
+    3)Time Complexity is measure how much time an Algorithm takes is input size not in second ..its take number of operathion 
+What is Asymptotic Analisis
+    4)+++++ Asymptotic Analysis is a way to measure the efficiency of an algorithems  in term of tema and space as input grows large
+      +++++ BIG O ( O )
+        👉 Motha bhau
+        👉 Represents the Worst Case
+        👉 Takes maximum time
+
+      +++++ BIG Omega ( Ω )
+        👉 Chhota bhau
+        👉 Represents the Best Case
+        👉 Takes least time
+
+      +++++ BIG Theta ( Θ )
+        👉 Madhala bhau
+        👉 Represents the Average / Exact Case
+        👉 Time is between best and worst
+
+Recurrences & Master Theorem
+    5)++++ 
+Basic operations: traversal, insertion, deletion
+    6)++++  traversal == its mean traversal mean visitiing each and evry of a data structure one by one.
+      ++++  Insertion ==
+
