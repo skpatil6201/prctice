@@ -27,3 +27,8 @@ Basic operations: traversal, insertion, deletion
     6)++++  traversal == its mean traversal mean visitiing each and evry of a data structure one by one.
       ++++  Insertion ==
 
+Searching & Sorting basics
+    7)++++ searching mean finding element in data structure.
+      ++++ Linear Serch  check element one by one and worked on sorted array.
+      ++++ Binary Search  check on sorted array in data structure .if data is not sorted then its not worked.it can break data in to formate .and check
+
