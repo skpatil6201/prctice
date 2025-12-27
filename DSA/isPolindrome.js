@@ -1,4 +1,0 @@
-function pol(str1,str2){
-    return str1===str2.split('').reverse().join('')
-}
-console.log(pol("xex","xex"))
