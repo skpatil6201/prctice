@@ -5,19 +5,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    
+
 </head>
 
 <body>
 
+    <script>
+
+        document.onmousedown = function () {
+            alert("Content is protected !!");
+            return false;
+        };
+
+    </script>
     <button data-id="123" data-role="bhau">hello</button>
 </body>
 <script>
 
-        const btn = document.querySelector('button')
-        console.log("hello")
-        console.log(btn.dataset.id)
-        console.log(btn.dataset.role)
+    const btn = document.querySelector('button')
+    console.log("hello")
+    console.log(btn.dataset.id)
+    console.log(btn.dataset.role)
 
-    </script>
+</script>
+
 </html>

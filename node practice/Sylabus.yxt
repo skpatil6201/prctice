@@ -1,0 +1,281 @@
+1. JavaScript Fundamentals
+
+- ES6+ Features (let, const, arrow functions)
+- Destructuring and Spread operators
+- Template literals
+- Promises and Promise chaining
+- Async/Await
+- Classes and Prototypes
+- Modules (import/export)
+- Higher-order functions (map, filter, reduce)
+- Closures and Scope
+- Error handling (try/catch)
+
+2. Node.js Basics
+
+- Introduction to Node.js and V8 engine
+- Node.js architecture and Event loop
+- Blocking vs Non-blocking code
+- Global objects and process
+- Node.js REPL
+- Module system (CommonJS vs ES Modules)
+- Built-in modules overview
+- Understanding package.json
+
+3. Core Node.js Modules
+
+- File System (fs) - reading, writing files
+- Path module
+- OS module
+- Events and EventEmitter
+- HTTP/HTTPS module
+- URL module
+- Query String module
+- Streams (Readable, Writable, Transform)
+- Buffer
+- Child processes
+
+4. NPM (Node Package Manager)
+
+- Installing and uninstalling packages
+- Local vs Global packages
+- package.json configuration
+- package-lock.json
+- Semantic versioning
+- NPM scripts
+- Publishing packages
+- Alternative package managers (Yarn, PNPM)
+
+5. Express.js Framework
+
+- Express setup and configuration
+- Routing (GET, POST, PUT, DELETE, PATCH)
+- Route parameters and query strings
+- Middleware concept and usage
+- Built-in middleware (express.json, express.static)
+- Third-party middleware
+- Custom middleware
+- Error handling middleware
+- Router-level middleware
+- Template engines (EJS, Pug)
+
+6. RESTful API Development
+
+- REST principles and best practices
+- HTTP methods and status codes
+- API versioning
+- Request and Response handling
+- CRUD operations
+- Pagination
+- Filtering and Sorting
+- API documentation (Swagger/OpenAPI)
+- Postman for API testing
+
+7. Database Integration
+SQL Databases:
+
+- PostgreSQL/MySQL basics
+- CRUD operations with SQL
+- Joins and Relations
+- Raw queries with pg/mysql2
+- Query builders (Knex.js)
+- ORMs (Sequelize, TypeORM, Prisma)
+- Migrations and Seeders
+
+NoSQL Databases:
+
+- MongoDB fundamentals
+- Mongoose ODM
+- Schema design and validation
+- CRUD with Mongoose
+- Aggregation pipeline
+- Indexing and performance
+
+8. Authentication & Authorization
+
+- Authentication vs Authorization
+- Password hashing (bcrypt, argon2)
+- JWT (JSON Web Tokens)
+- Session-based authentication
+- Cookies and HTTP-only cookies
+- OAuth 2.0 and Social login
+- Role-based access control (RBAC)
+- Refresh tokens
+- Two-factor authentication (2FA)
+
+9. Security Best Practices
+
+- Input validation and sanitization
+- SQL injection prevention
+- XSS (Cross-Site Scripting) prevention
+- CSRF protection
+- CORS configuration
+- Helmet.js security headers
+- Rate limiting
+- Data encryption
+- Environment variables and secrets management
+- HTTPS and SSL/TLS
+
+10. File Handling
+
+- File uploads with Multer
+- File validation (size, type)
+- Image processing (Sharp)
+- Cloud storage (AWS S3, Cloudinary)
+- File download and streaming
+- CSV/Excel parsing
+
+11. Error Handling & Logging
+
+- Error types and custom errors
+- Try-catch and error propagation
+- Global error handler
+- Async error handling
+- Logging with Winston/Pino
+- Log levels and formats
+- Error monitoring (Sentry)
+
+12. Testing
+
+- Unit testing fundamentals
+- Testing frameworks (Jest, Mocha)
+- Assertion libraries (Chai)
+- API testing with Supertest
+- Mocking and stubbing
+- Test coverage
+- Integration testing
+- Test-driven development (TDD)
+- End-to-end testing
+
+13. Validation & Data Processing
+
+- Input validation with Joi
+- Express-validator
+- Custom validators
+- Data transformation
+- Schema validation
+- Request body parsing
+
+14. Caching & Performance
+
+- Caching strategies
+- Redis basics and integration
+- In-memory caching
+- HTTP caching headers
+- Database query optimization
+- Indexing strategies
+- Compression (gzip)
+- Load balancing
+- Clustering with PM2
+- Profiling and monitoring
+
+15. Real-time Communication
+
+- WebSockets basics
+- Socket.io implementation
+- Real-time events
+- Broadcasting
+- Rooms and namespaces
+- Chat applications
+- Server-Sent Events (SSE)
+
+16. Email Services
+
+- Nodemailer setup
+- Sending emails
+- Email templates
+- Email verification
+- Password reset flows
+- Email service providers (SendGrid, Mailgun)
+
+17. Background Jobs & Task Queues
+
+- Bull/BullMQ for job queues
+- Agenda for scheduled jobs
+- Cron jobs with node-cron
+- Worker processes
+- Job retries and failure handling
+
+18. API Advanced Topics
+
+- GraphQL with Apollo Server
+- GraphQL schema and resolvers
+- Queries, Mutations, Subscriptions
+- GraphQL vs REST
+- API rate limiting
+- API gateway patterns
+- Microservices communication
+
+19. Microservices Architecture
+
+- Microservices principles
+- Service communication (REST, gRPC)
+- Message brokers (RabbitMQ, Kafka)
+- Service discovery
+- API Gateway
+- Docker for microservices
+- Container orchestration basics
+
+20. Version Control & Collaboration
+
+- Git fundamentals
+- Branching strategies
+- Pull requests and code review
+- Git workflows (GitFlow)
+- GitHub/GitLab/Bitbucket
+
+21. DevOps & Deployment
+
+- Environment configuration
+- Docker containerization
+- Docker Compose
+- CI/CD pipelines (GitHub Actions, Jenkins)
+- Cloud platforms (AWS, Heroku, DigitalOcean)
+- Server deployment (Nginx, PM2)
+- Monitoring and logging in production
+- Health checks and uptime monitoring
+
+22. Code Quality & Best Practices
+
+- ESLint configuration
+- Prettier for code formatting
+- Code structure and organization
+- MVC architecture
+- Design patterns (Singleton, Factory, Repository)
+- SOLID principles
+- Clean code practices
+- Documentation with JSDoc
+- API documentation
+
+23. Advanced Node.js Concepts
+
+- Event-driven architecture
+- Stream processing
+- Worker threads
+- Clustering
+- Memory management
+- Garbage collection
+- Performance profiling
+- Debugging techniques
+- Understanding async hooks
+
+24. Third-Party Integrations
+
+- Payment gateways (Stripe, PayPal)
+- SMS services (Twilio)
+- Push notifications
+- Analytics integration
+- Social media APIs
+- Maps and geolocation
+- Cloud services (AWS SDK)
+
+25. Practical Projects
+
+- REST API with authentication
+- E-commerce backend
+- Blog/CMS API
+- Real-time chat application
+- Task management system
+- Social media backend
+- File sharing service
+- Booking/reservation system
