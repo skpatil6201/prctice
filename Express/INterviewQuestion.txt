@@ -1,0 +1,189 @@
+🔹 Basic Express.js Questions
+
+What is Express.js?
+
+Why do we use Express instead of Node.js HTTP module?
+
+What are the main features of Express.js?
+
+What is app.listen()?
+
+What is the role of package.json in an Express app?
+
+What is the difference between Express and other Node frameworks?
+
+🔹 Routing
+
+What is routing in Express?
+
+How do you define a route in Express?
+
+What is route parameter?
+
+Difference between req.params and req.query?
+
+How do you handle multiple HTTP methods for the same route?
+
+What is express.Router()?
+
+How do you create modular routes?
+
+🔹 Middleware
+
+What is middleware in Express?
+
+What are the types of middleware?
+
+What is application-level middleware?
+
+What is router-level middleware?
+
+What is third-party middleware?
+
+What is built-in middleware in Express?
+
+What is next() and why is it used?
+
+What happens if next() is not called?
+
+What is error-handling middleware?
+
+🔹 Request & Response
+
+What is req.body?
+
+What is req.headers?
+
+What is res.send()?
+
+What is res.json()?
+
+Difference between res.send() and res.json()?
+
+What is res.status()?
+
+How do you send a file in Express?
+
+🔹 REST API & HTTP
+
+What are HTTP methods used in REST APIs?
+
+Difference between GET and POST?
+
+Difference between PUT and PATCH?
+
+What is REST architecture?
+
+What is statelessness in REST?
+
+What HTTP status codes have you commonly used?
+
+🔹 Error Handling
+
+How do you handle errors in Express?
+
+What is centralized error handling?
+
+How do you handle async errors?
+
+What is try-catch used for in Express routes?
+
+How do you return proper error responses?
+
+🔹 Authentication & Security
+
+How do you implement authentication in Express?
+
+What is JWT?
+
+How do you protect private routes?
+
+What is authorization vs authentication?
+
+How do you store secrets securely?
+
+What is CORS?
+
+How do you handle CORS in Express?
+
+What is Helmet?
+
+What is rate limiting?
+
+🔹 Validation & File Upload
+
+How do you validate request data?
+
+What is express-validator?
+
+How do you handle file uploads in Express?
+
+What is Multer?
+
+How do you limit file size?
+
+🔹 Database Integration
+
+How do you connect Express with MongoDB?
+
+What is Mongoose?
+
+What is schema and model?
+
+How do you handle database errors?
+
+How do you implement pagination?
+
+🔹 Performance & Best Practices
+
+How do you improve Express app performance?
+
+What is caching?
+
+How do you implement caching?
+
+How do you handle large traffic?
+
+What is compression middleware?
+
+How do you log requests?
+
+🔹 Project Structure & Deployment
+
+What is a good folder structure for Express apps?
+
+What are controllers and services?
+
+How do you manage environment variables?
+
+What is PM2?
+
+How do you deploy an Express app?
+
+🔹 Real-World / Scenario Based
+
+How do you secure APIs in production?
+
+How do you prevent SQL/NoSQL injection?
+
+How do you handle role-based access control?
+
+How do you version APIs?
+
+How do you handle API rate abuse?
+
+How do you manage API response time?
+
+🔹 Tricky / Advanced
+
+Is Express synchronous or asynchronous?
+
+How does Express handle multiple requests?
+
+Can Express handle WebSockets?
+
+What is the difference between app.use() and app.get()?
+
+What is body parsing in Express?
+
+What happens when an error is thrown inside middleware?

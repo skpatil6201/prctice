@@ -1,0 +1,227 @@
+What is TypeScript?
+
+Why do we use TypeScript instead of JavaScript?
+
+What are the benefits of TypeScript?
+
+What is type safety?
+
+How does TypeScript improve code quality?
+
+What is the difference between TypeScript and JavaScript?
+
+🔹 Types
+
+What are primitive types in TypeScript?
+
+What is any type?
+
+What is unknown type?
+
+Difference between any and unknown?
+
+What is void?
+
+What is never?
+
+What is null and undefined in TypeScript?
+
+What is a union type?
+
+What is an intersection type?
+
+What is a tuple?
+
+What is an enum?
+
+Difference between numeric and string enums?
+
+What is a literal type?
+
+🔹 Interfaces & Type Aliases
+
+What is an interface?
+
+Difference between interface and type?
+
+Can interfaces be extended?
+
+Can type aliases be extended?
+
+When should you use interface vs type?
+
+What is optional property (?)?
+
+What is readonly property?
+
+🔹 Functions
+
+How do you type a function in TypeScript?
+
+What are optional parameters?
+
+What are default parameters?
+
+How do you type a function return value?
+
+What is function overloading?
+
+How do you type arrow functions?
+
+🔹 Objects & Arrays
+
+How do you define object types?
+
+How do you type arrays?
+
+Difference between Array<Type> and Type[]?
+
+How do you type nested objects?
+
+How do you handle dynamic object keys?
+
+🔹 Generics
+
+What are generics?
+
+Why do we need generics?
+
+How do generics improve reusability?
+
+How do you use generics with functions?
+
+How do you use generics with interfaces?
+
+What is a generic constraint?
+
+🔹 Classes
+
+What is a class in TypeScript?
+
+Difference between public, private, and protected?
+
+What is constructor typing?
+
+What is inheritance in TypeScript?
+
+What is abstract class?
+
+Difference between abstract class and interface?
+
+What is method overriding?
+
+🔹 Type Narrowing
+
+What is type narrowing?
+
+What is typeof guard?
+
+What is instanceof?
+
+What are custom type guards?
+
+What is discriminated union?
+
+🔹 Utility Types
+
+What are utility types?
+
+What is Partial?
+
+What is Required?
+
+What is Readonly?
+
+What is Pick?
+
+What is Omit?
+
+What is Record?
+
+🔹 Advanced TypeScript
+
+What is keyof?
+
+What is typeof in TypeScript?
+
+What is as keyword?
+
+What is type assertion?
+
+Difference between type assertion and type casting?
+
+What is index signature?
+
+What are mapped types?
+
+What are conditional types?
+
+🔹 Modules & Config
+
+What is tsconfig.json?
+
+What is strict mode?
+
+What is noImplicitAny?
+
+What is module resolution?
+
+Difference between import and require?
+
+What is declaration file (.d.ts)?
+
+🔹 TypeScript with React / Node
+
+How do you use TypeScript with React?
+
+How do you type props in React?
+
+How do you type state in React?
+
+How do you type event handlers?
+
+How do you use TypeScript with Express?
+
+How do you type req and res in Express?
+
+How do you type environment variables?
+
+🔹 Error Handling & Best Practices
+
+How do you handle errors in TypeScript?
+
+What are common TypeScript mistakes?
+
+How do you avoid using any?
+
+What are best practices for TypeScript?
+
+How does TypeScript help in large projects?
+
+🔹 Scenario / Experience Based
+
+How has TypeScript helped you in real projects?
+
+What challenges did you face while using TypeScript?
+
+How do you migrate JavaScript to TypeScript?
+
+How do you debug TypeScript errors?
+
+How do you handle third-party libraries without types?
+
+🔹 Tricky Questions
+
+Is TypeScript compiled or interpreted?
+
+Does TypeScript run in the browser?
+
+What happens after TypeScript compilation?
+
+Can TypeScript catch runtime errors?
+
+What is structural typing?
+
+What is duck typing?
+
+Why is TypeScript preferred in enterprise applications?
