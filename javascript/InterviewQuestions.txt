@@ -1,0 +1,22 @@
+🔹 JavaScript Code Execution & Global Execution Context
+🔹 Event Loop, Call Stack & Concurrency
+🔹 Hoisting (Variables & Functions)
+🔹 Var vs Let vs Const
+🔹 Arrow Functions vs Traditional Functions & this
+🔹 Closures in JavaScript
+🔹 Classes, Objects & Getters/Setters
+🔹 Working with JavaScript Objects
+🔹 Optional Chaining (?.), Nullish Coalescing (??), Logical OR (||)
+🔹 Object & Array Destructuring
+🔹 Shallow vs Deep Copy
+🔹 Array Methods: map(), filter(), reduce(), join(), split(), find(), findIndex(), splice(), slice()
+🔹 Apply, Bind & Call Methods
+🔹 Prototype & Inheritance
+🔹 Boolean Values, Ternary Operator & Short-Circuiting
+🔹 Spread & Rest Operators
+🔹 Set & Map
+🔹 Debouncing & Throttling in JavaScript
+🔹 Event Delegation & Event Bubbling
+🔹 Promises & Async/Await
+🔹 Memoization
+🔹 ES6 Modules (export vs export default)
