@@ -1,0 +1,51 @@
+🚀 𝑹𝒆𝒂𝒄𝒕.𝒋𝒔 𝑻𝒐𝒑 50 𝑸&𝑨 (𝑰𝒏𝒕𝒆𝒓𝒗𝒊𝒆𝒘-𝑭𝒐𝒄𝒖𝒔𝒆𝒅)
+1.What is React and why is it used?
+2.How does React work internally?
+3.What are the main features of React?
+4.What is JSX and why is it used?
+5.Can React work without JSX?
+6.What is the Virtual DOM?
+7.How is Virtual DOM different from Real DOM?
+8.What are components in React?
+9.Difference between functional and class components?
+10.What are props in React?
+11.What is state in React?
+12.Difference between props and state?
+13.What is useState hook?
+14.What is useEffect hook?
+15.How does useEffect lifecycle work?
+16.What is dependency array in useEffect?
+17.What is conditional rendering in React?
+18.Why are keys important in React lists?
+19.What is lifting state up?
+20.What is prop drilling?
+21.How does Context API solve prop drilling?
+22.What is useContext hook?
+23.What are React hooks?
+24.Rules of hooks in React?
+25.What is React.memo?
+26.Difference between useMemo and useCallback?
+27.What is useRef and its use cases?
+28.What are fragments in React?
+29.What is lazy loading in React?
+30.What is Suspense in React?
+31.What are Higher Order Components (HOC)?
+32.What is reconciliation in React?
+33.What is a pure component?
+34.What is immutability and why is it important?
+35.What is Redux?
+36.Why do we need Redux in React apps?
+37.Redux vs Context API?
+38.What is Strict Mode in React?
+39.What are React portals?
+40.What is forwardRef in React?
+41.What are error boundaries?
+42.What is Client Side Rendering (CSR)?
+43.What is Server Side Rendering (SSR)?
+44.What is hydration in React?
+45.What is React Router?
+46.Difference between BrowserRouter and HashRouter?
+47.What is code splitting in React?
+48.What is debounce and throttle in React?
+49.What are performance optimization techniques in React?
+50.How do you prepare for a React.js interview?

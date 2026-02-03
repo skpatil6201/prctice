@@ -1,0 +1,296 @@
+🔥 1. Node.js Internals (VERY IMPORTANT)
+
+⭐ Interview favorite
+
+How Node.js works internally
+
+V8 Engine
+
+Event Loop (phases in depth)
+
+Call Stack
+
+Microtasks vs Macrotasks
+
+process.nextTick()
+
+Libuv
+
+Thread Pool
+
+🔥 2. Event Loop (Deep Dive)
+
+Event Loop phases:
+
+Timers
+
+I/O callbacks
+
+Idle, prepare
+
+Poll
+
+Check
+
+Close callbacks
+
+setImmediate() vs setTimeout()
+
+Promise queue vs callback queue
+
+🔥 3. Asynchronous Patterns
+
+Callback hell & solutions
+
+Promises chaining
+
+async / await internals
+
+Error handling in async code
+
+Parallel vs Sequential execution
+
+Promise.all, allSettled, race, any
+
+🔥 4. Streams & Buffers
+
+⭐ Real production usage
+
+Readable, Writable, Duplex, Transform streams
+
+Stream piping
+
+Backpressure handling
+
+Buffer vs Stream
+
+File upload/download using streams
+
+🔥 5. Cluster & Worker Threads
+
+⭐ Performance optimization
+
+Single-threaded nature of Node
+
+Cluster module
+
+Worker Threads
+
+CPU-intensive tasks
+
+Load balancing
+
+🔥 6. Memory Management & Performance
+
+Heap vs Stack
+
+Garbage Collection
+
+Memory leaks
+
+Profiling Node apps
+
+process.memoryUsage()
+
+Avoid blocking the event loop
+
+🔥 7. Error Handling (Advanced)
+
+Error-first callbacks
+
+Centralized error handling
+
+Custom error classes
+
+Unhandled promise rejections
+
+Graceful shutdown
+
+Process-level errors
+
+process.on("unhandledRejection", err => {});
+process.on("uncaughtException", err => {});
+
+🔥 8. Security in Node.js
+
+⭐ MUST KNOW
+
+Authentication vs Authorization
+
+JWT internals
+
+OAuth flow
+
+Password hashing (bcrypt)
+
+CSRF, XSS, CORS
+
+Rate limiting
+
+Helmet
+
+Environment variable security
+
+🔥 9. Scaling Node.js Applications
+
+Horizontal vs Vertical scaling
+
+Load balancers
+
+PM2
+
+Zero-downtime deployment
+
+Stateless architecture
+
+🔥 10. Advanced Express.js Concepts
+
+(Used in almost every backend)
+
+Middleware execution order
+
+Custom middleware
+
+Error-handling middleware
+
+Request lifecycle
+
+Performance tuning
+
+Request validation
+
+API versioning
+
+🔥 11. Database Optimization
+
+Connection pooling
+
+Indexing
+
+Transactions
+
+Aggregation pipelines
+
+MongoDB performance tuning
+
+Preventing N+1 query problem
+
+🔥 12. Caching Strategies
+
+⭐ High performance apps
+
+Redis caching
+
+In-memory cache
+
+Cache invalidation
+
+Session storage
+
+Rate limiting using Redis
+
+🔥 13. File Handling
+
+Multer internals
+
+File streaming
+
+Large file uploads
+
+Cloud storage (S3 / MinIO)
+
+File validation & security
+
+🔥 14. API Design (Advanced)
+
+REST best practices
+
+Pagination strategies
+
+Filtering & Sorting
+
+API versioning
+
+Idempotency
+
+HATEOAS
+
+OpenAPI / Swagger
+
+🔥 15. Testing in Node.js
+
+Unit testing
+
+Integration testing
+
+E2E testing
+
+Jest
+
+Supertest
+
+Mocking DB & APIs
+
+🔥 16. Logging & Monitoring
+
+Winston / Pino
+
+Structured logging
+
+Log levels
+
+Request tracing
+
+Application metrics
+
+Health checks
+
+🔥 17. Message Queues & Background Jobs
+
+Event-driven architecture
+
+RabbitMQ
+
+Kafka
+
+Bull / BullMQ
+
+Cron jobs
+
+🔥 18. Microservices with Node.js
+
+Monolith vs Microservices
+
+Inter-service communication
+
+API Gateway
+
+Service discovery
+
+Circuit breakers
+
+🔥 19. DevOps for Node.js
+
+Docker
+
+CI/CD pipelines
+
+Environment management
+
+Kubernetes basics
+
+Nginx reverse proxy
+
+🔥 20. Real-World System Design (Node.js)
+
+⭐ Senior-level
+
+High traffic API design
+
+Chat application
+
+Payment system
+
+File upload system
+
+Notification service
