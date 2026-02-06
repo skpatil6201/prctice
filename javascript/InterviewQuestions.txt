@@ -14,8 +14,8 @@
 🔹 Prototype & Inheritance
 🔹 Boolean Values, Ternary Operator & Short-Circuiting
 🔹 Spread & Rest Operators
-🔹 Set & Map
 🔹 Debouncing & Throttling in JavaScript
+🔹 Set & Map
 🔹 Event Delegation & Event Bubbling
 🔹 Promises & Async/Await
 🔹 Memoization
