@@ -1,21 +1,16 @@
-import { useState } from 'react'
-import './App.css'
-import Demo from './demo'
+import React, { useState } from "react";
+import { ThemeContext, ThemeType } from "./ThemeContext";
+import Child from "./assets/react.svg";
 
-function App() {
-  const [count, setCount] = useState("sent to chield")
+const App: React.FC = () => {
+  const [theme, setTheme] = useState<ThemeType>("light");
 
-  const handleParent = (date: any) => {
-    setCount(date)
-  }
   return (
-    <>
-      <h1>Vite + React</h1>
-      <h1>come dayta from cho=iend is {count}</h1>
-      
-      <Demo name={handleParent} />
-    </>
-  )
-}
+    <ThemeContext.Provider value={{ theme, setTheme }}>
+      <h1>useContext with TypeScript</h1>
+      <Child />
+    </ThemeContext.Provider>
+  );
+};
 
-export default App
+export default App;
